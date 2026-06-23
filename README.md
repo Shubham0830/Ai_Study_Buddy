@@ -18,10 +18,3 @@
 | Yash Purohit | TECH488266 |
 
 ---
-
-
-## Theme Selection
-
-**EDGE-AI PLATFORM FOR AUTONOMOUS LEARNING & EVALUATION**
-
-The project focuses on integrating Edge AI technologies with modern educational systems to enable personalized learning, automated assessments, and intelligent evaluation mechanisms that can operate efficiently with reduced dependency on cloud infrastructure.
