@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Shubham</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+<link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+
+<!-- ══ NAV ══ -->
+<nav>
+  <div class="container">
+   
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#hero"       class="nl active"><i class="fa-solid fa-house"></i>Home</a></li>
+      <li><a href="#about"      class="nl"><i class="fa-solid fa-user"></i>About</a></li>
+      <li><a href="#education"  class="nl"><i class="fa-solid fa-graduation-cap"></i>Education</a></li>
+      <li><a href="#experience" class="nl"><i class="fa-solid fa-briefcase"></i>Experience</a></li>
+      <li><a href="#projects"   class="nl"><i class="fa-solid fa-folder-open"></i>Projects</a></li>
+      <li><a href="#skills"     class="nl"><i class="fa-solid fa-layer-group"></i>Skills</a></li>
+      <li><a href="#contact"    class="nl"><i class="fa-solid fa-paper-plane"></i>Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button id="theme-toggle" class="icon-btn" aria-label="Toggle theme"><i class="fa-solid fa-moon"></i></button>
+      <button class="icon-btn hamburger" id="hamburger"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#hero"       class="ml"><i class="fa-solid fa-house"></i>Home</a>
+  <a href="#about"      class="ml"><i class="fa-solid fa-user"></i>About</a>
+  <a href="#education"  class="ml"><i class="fa-solid fa-graduation-cap"></i>Education</a>
+  <a href="#experience" class="ml"><i class="fa-solid fa-briefcase"></i>Experience</a>
+  <a href="#projects"   class="ml"><i class="fa-solid fa-folder-open"></i>Projects</a>
+  <a href="#skills"     class="ml"><i class="fa-solid fa-layer-group"></i>Skills</a>
+  <a href="#contact"    class="ml"><i class="fa-solid fa-paper-plane"></i>Contact</a>
+</div>
+
+<!-- ══ HERO ══ -->
+<section id="hero" class="section">
+  <div class="container">
+    <div class="hero-layout">
+
+      <!-- LEFT -->
+      <div class="hero-left">
+        <div class="badge-row reveal">
+          <div class="hero-badge badge-green"><div class="pulse"></div>Open to Internships</div>
+          <div class="hero-badge badge-blue"><i class="fa-solid fa-users"></i>Competitive programmmer</div>
+        </div>
+
+        <div class="hero-greeting reveal d1"><span class="hi"> </span>Hello, World! I'm</div>
+
+        <h1 class="hero-name reveal d2">
+          <span class="nm">Shubham</span>
+          <!--check-->
+          <span class="hero-sub"><i class="fa-solid fa-server" style="color:var(--accent);font-size:.85em"></i>&nbsp; Backend Developer</span>
+        </h1>
+
+        <div class="hero-role reveal d3">
+          <span class="prompt">$&nbsp;</span><span id="typewriter"></span><span class="cursor"></span>
+        </div>
+
+        <p class="hero-bio reveal d3">
+          2nd-year <strong>B.Tech CSE</strong> student at <strong>MMMUT Gorakhpur</strong>.
+          I am a passionate competitive programmer with a <strong>specialist</strong> on codeforces.I love solving complex computational puzzles optimizing algorithms.
+        </p>
+
+        <div class="hero-cta reveal d4">
+          <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-rocket"></i>View Projects</a>
+          <a href="#contact"  class="btn btn-ghost"><i class="fa-solid fa-envelope"></i>Hire Me</a>
+          <a href="#"         class="btn btn-ghost" onclick="return false"><i class="fa-solid fa-file-arrow-down"></i>Resume</a>
+        </div>
+<!--check-->
+        <div class="hero-socials reveal d4">
+          <a href="https://github.com/Shubham0830" class="soc" title="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/shubham-kumar-aa3285333/" class="soc" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" class="soc" title="Twitter / X"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="mailto:shubham999108@gmail.com" class="soc" title="Email"><i class="fa-solid fa-envelope"></i></a>
+          <a href="#" class="soc" title="LeetCode"><i class="fa-solid fa-code"></i></a>
+        </div>
+      </div>
+
+      <!-- RIGHT -->
+      <div class="hero-right">
+        <div class="avatar-card reveal sr">
+          <div class="avatar-ring">S</div>
+          <div class="avatar-name">Shubham</div>
+          <div class="avatar-role"><i class="fa-solid fa-terminal"></i>Backend Developer</div>
+          <div class="avatar-loc"><i class="fa-solid fa-location-dot"></i>Haryana, India</div>
+          <div class="avatar-chips">
+            <span class="tag"><i class="fa-brands fa-node-js ic-node"></i>Node.js</span>
+            <span class="tag"><i class="fa-brands fa-react ic-react"></i>React</span>
+            <span class="tag"><i class="fa-solid fa-database ic-pg"></i>SQLite</span>
+            <span class="tag"><i class="fa-solid fa-database ic-pg"></i>C++</span>
+          </div>
+        </div>
+
+        <div class="stat-row reveal sr d1">
+          <div class="stat-box"><span class="stat-val">9.07</span><span class="stat-lbl"><i class="fa-solid fa-star" style="color:var(--orange)"></i> CGPA</span></div>
+          <div class="stat-box"><span class="stat-val">2nd</span><span class="stat-lbl"><i class="fa-solid fa-layer-group" style="color:var(--accent)"></i> B.Tech Year</span></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ ABOUT ══ -->
+<section id="about" class="section">
+  <div class="container">
+    <div class="s-chip reveal"><i class="fa-solid fa-circle-info"></i>&nbsp;01  Who Am I</div>
+    <h2 class="s-title reveal">About <span>Me</span></h2>
+    <div class="about-grid">
+      <div class="about-text reveal sl">
+        <p>I'm a <strong>2nd-year B.Tech CSE student</strong> at Madan Mohan Malaviya University of Technology, Gorakhpur, with a laser focus on <strong>backend engineering</strong>. I love building the systems that power products — APIs, databases, auth flows, and server logic.</p>
+        
+        <p><strong>Competitive programming</strong> is what drives me. I'm an competitive programmer who thinks deeply about algorithms, efficiency, and elegant solutions — and I bring that same mindset to backend development with Node.js and Express. I may be a fresher, but I've trained like a pro. Let's build something smart together.</p>
+        <div class="highlight">
+          <i class="fa-solid fa-lightbulb"></i>
+          <span>Currently seeking <strong>internships or fresher SDE roles</strong> where I can contribute backend logic from day one, collaborate with great engineers, and grow fast.</span>
+        </div>
+      </div>
+
+      <div class="info-cards reveal sr">
+        <div class="info-card"><div class="info-icon ii-blue"><i class="fa-solid fa-user"></i></div><div><small>Full Name</small><strong>Shubham</strong></div></div>
+        <div class="info-card"><div class="info-icon ii-red"><i class="fa-solid fa-location-dot"></i></div><div><small>Location</small><strong>Haryana, India</strong></div></div>
+        <div class="info-card"><div class="info-icon ii-green"><i class="fa-solid fa-graduation-cap"></i></div><div><small>Degree</small><strong>B.Tech CSE — 2nd Year</strong></div></div>
+        <div class="info-card"><div class="info-icon ii-orange"><i class="fa-solid fa-building-columns"></i></div><div><small>University</small><strong>MMMUT Gorakhpur</strong></div></div>
+        <div class="info-card"><div class="info-icon ii-blue"><i class="fa-solid fa-briefcase"></i></div><div><small>Status</small><strong style="color:var(--green)">Seeking Internship / SDE</strong></div></div>
+        <div class="info-card"><div class="info-icon ii-green"><i class="fa-solid fa-heart"></i></div><div><small>Interests</small><strong>APIs · CP · DSA  · System Design</strong></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ EDUCATION ══ -->
+<section id="education" class="section">
+  <div class="container">
+    <div class="s-chip reveal"><i class="fa-solid fa-graduation-cap"></i>&nbsp;02  Academics</div>
+    <h2 class="s-title reveal">My <span>Education</span></h2>
+    <div class="timeline">
+
+      <div class="tl-wrap reveal">
+        <div class="tl-spine"><div class="tl-ico" style="color:var(--accent);border-color:rgba(88,166,255,.3);background:rgba(88,166,255,.07)"><i class="fa-solid fa-graduation-cap"></i></div></div>
+        <div class="tl-body">
+          <div class="tl-date"><i class="fa-regular fa-calendar"></i>2024 — 2028 (Pursuing)</div>
+          <div class="tl-ttl">B.Tech — Computer Science &amp; Engineering</div>
+          <div class="tl-org"><i class="fa-solid fa-building-columns"></i>MMMUT — Madan Mohan Malaviya University of Technology, Gorakhpur</div>
+          <div class="tl-txt">CGPA: <strong style="color:var(--accent)">9.07 / 10</strong> &nbsp;·&nbsp; Currently in 2nd Year.</div>
+          <div class="chips">
+            <span class="chip"><i class="fa-solid fa-network-wired ic-cn"></i>Comp. Networks</span>
+            <span class="chip"><i class="fa-solid fa-database ic-dbms"></i>DBMS</span>
+            <span class="chip"><i class="fa-solid fa-cube ic-oops"></i>OOPs</span>
+            <span class="chip"><i class="fa-brands fa-python ic-py"></i>Python</span>
+            <span class="chip"><i class="fa-solid fa-microchip" style="color:var(--muted)"></i>OS</span>
+            <span class="chip"><i class="fa-solid fa-sitemap" style="color:var(--accent)"></i>DSA</span>
+            <span class="chip"><i class="fa-solid fa-globe ic-cn"></i>Web Tech</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tl-wrap reveal d1">
+        <div class="tl-spine"><div class="tl-ico" style="color:var(--green);border-color:rgba(63,185,80,.3);background:rgba(63,185,80,.07)"><i class="fa-solid fa-school"></i></div></div>
+        <div class="tl-body">
+          <div class="tl-date"><i class="fa-regular fa-calendar"></i>2022 — 2023</div>
+          <div class="tl-ttl">Class XII — Science (PCM)</div>
+          <div class="tl-org"><i class="fa-solid fa-location-dot"></i>CBSE</div>
+          <div class="tl-txt">Score: <strong style="color:var(--green)">83.4%</strong> &nbsp;·&nbsp; Developed foundational interest in programming and logic, which set the path to Computer Science.</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ PROJECTS ══ -->
+<section id="projects" class="section">
+  <div class="container">
+    <div class="s-chip reveal">
+      <i class="fa-solid fa-folder-open"></i>&nbsp;03 What I've Built
+    </div>
+    <h2 class="s-title reveal">Featured <span>Projects</span></h2>
+
+    <div class="projects-grid">
+
+      <!-- PHONEPE CLONE -->
+      <div class="proj reveal">
+        <div class="proj-hd">
+          <div class="proj-ico pi-blue">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+          </div>
+          <div class="proj-acts">
+            
+          </div>
+        </div>
+
+        <div>
+          <div class="proj-name">PhonePe Clone</div>
+          <div class="proj-sub">Digital Payment Backend System</div>
+        </div>
+
+        <div class="proj-desc">
+          Built a secure digital payment backend supporting JWT-based authentication,
+          dynamic UPI IDs, MPIN security, peer-to-peer transfers, wallet top-ups,
+          and bill payments. Includes full transaction history and API documentation.
+        </div>
+
+        <div class="chips">
+          <span class="chip"><i class="fa-brands fa-node-js ic-node"></i>Node.js</span>
+          <span class="chip"><i class="fa-solid fa-bolt ic-expr"></i>Express</span>
+          <span class="chip"><i class="fa-solid fa-leaf ic-mongo"></i>MongoDB</span>
+          <span class="chip"><i class="fa-solid fa-shield-halved ic-jwt"></i>JWT</span>
+          <span class="chip"><i class="fa-solid fa-key"></i>BcryptJS</span>
+        </div>
+
+        <div class="proj-footer">
+          <i class="fa-solid fa-circle-dot"></i>FinTech API ·
+          <i class="fa-solid fa-lock"></i>Secure Transactions
+        </div>
+      </div>
+
+
+      <!-- EVENT BOOKING FULL STACK -->
+      <div class="proj reveal d1">
+        <div class="proj-hd">
+          <div class="proj-ico pi-green">
+            <i class="fa-solid fa-calendar-check"></i>
+          </div>
+          <div class="proj-acts">
+            
+            
+          </div>
+        </div>
+
+        <div>
+          <div class="proj-name">Event Booking Platform</div>
+          <div class="proj-sub">Full Stack MERN Application</div>
+        </div>
+
+        <div class="proj-desc">
+          Full-stack event booking platform with React frontend and Node.js backend.
+          Includes OTP-based booking, admin dashboard, analytics, and email notifications.
+          Supports event creation, booking management, and secure authentication.
+        </div>
+
+        <div class="chips">
+          <span class="chip"><i class="fa-brands fa-react"></i>React</span>
+          <span class="chip"><i class="fa-brands fa-node-js ic-node"></i>Node.js</span>
+          <span class="chip"><i class="fa-solid fa-bolt ic-expr"></i>Express</span>
+          <span class="chip"><i class="fa-solid fa-leaf ic-mongo"></i>MongoDB</span>
+          <span class="chip"><i class="fa-solid fa-shield-halved ic-jwt"></i>JWT</span>
+        </div>
+
+        <div class="proj-footer">
+          <i class="fa-solid fa-circle-dot"></i>MERN Stack ·
+          <i class="fa-solid fa-chart-line"></i>Analytics Dashboard
+        </div>
+      </div>
+
+
+      <!-- BYTE BLOG -->
+      <div class="proj reveal d2">
+        <div class="proj-hd">
+          <div class="proj-ico pi-purple">
+            <i class="fa-solid fa-pen-nib"></i>
+          </div>
+          <div class="proj-acts">
+            
+          </div>
+        </div>
+
+        <div>
+          <div class="proj-name">Byte-Blog</div>
+          <div class="proj-sub">Dynamic Blogging Platform</div>
+        </div>
+
+        <div class="proj-desc">
+          Blogging platform with full CRUD functionality, search, pagination,
+          and admin dashboard. Features secure authentication, responsive UI,
+          and contact form integration.
+        </div>
+
+        <div class="chips">
+          <span class="chip"><i class="fa-brands fa-node-js ic-node"></i>Node.js</span>
+          <span class="chip"><i class="fa-solid fa-bolt ic-expr"></i>Express</span>
+          <span class="chip"><i class="fa-solid fa-leaf ic-mongo"></i>MongoDB</span>
+          <span class="chip"><i class="fa-solid fa-code"></i>EJS</span>
+          <span class="chip"><i class="fa-solid fa-shield-halved ic-jwt"></i>JWT</span>
+        </div>
+
+        <div class="proj-footer">
+          <i class="fa-solid fa-circle-dot"></i>Full CRUD ·
+          <i class="fa-solid fa-user-shield"></i>Admin Panel
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ SKILLS ══ -->
+<section id="skills" class="section">
+  <div class="container">
+    <div class="s-chip reveal"><i class="fa-solid fa-layer-group"></i>&nbsp;04  Tech Stack</div>
+    <h2 class="s-title reveal">My <span>Skills</span></h2>
+    <div class="skill-sections">
+
+      <!-- Backend -->
+      <div class="reveal">
+        <div class="skill-hd">
+          <div class="skill-hd-icon ii-blue"><i class="fa-solid fa-server"></i></div>
+          <span class="skill-hd-label">Backend &amp; APIs</span>
+          <div class="skill-hd-line"></div>
+        </div>
+        <div class="skills-grid">
+          <div class="sk"><i class="fa-brands fa-node-js ic-node"></i><span class="sk-name">Node.js</span><span class="sk-lv lv-pro">Proficient</span></div>
+          <div class="sk"><i class="fa-solid fa-bolt ic-expr"></i><span class="sk-name">Express.js</span><span class="sk-lv lv-pro">Proficient</span></div>
+          <div class="sk"><i class="fa-brands fa-js ic-js"></i><span class="sk-name">JavaScript</span><span class="sk-lv lv-pro">Proficient</span></div>
+          <div class="sk"><i class="fa-solid fa-plug ic-cn"></i><span class="sk-name">REST APIs</span><span class="sk-lv lv-pro">Proficient</span></div>
+          <div class="sk"><i class="fa-solid fa-shield-halved ic-jwt"></i><span class="sk-name">JWT Auth</span><span class="sk-lv lv-pro">Proficient</span></div>
+          <div class="sk"><i class="fa-brands fa-python ic-py"></i><span class="sk-name">Python</span><span class="sk-lv lv-int">Learning</span></div>
+        </div>
+      </div>
+
+      <!-- Databases -->
+      <div class="reveal d1">
+        <div class="skill-hd">
+          <div class="skill-hd-icon ii-green"><i class="fa-solid fa-database"></i></div>
+          <span class="skill-hd-label">Databases &amp; ORM</span>
+          <div class="skill-hd-line"></div>
+        </div>
+        <div class="skills-grid">
+          <div class="sk"><i class="fa-solid fa-leaf ic-mongo"></i><span class="sk-name">MongoDB</span><span class="sk-lv lv-pro">Proficient</span></div>
+          <div class="sk"><i class="fa-solid fa-database ic-pg"></i><span class="sk-name">PostgreSQL</span><span class="sk-lv lv-int">Intermediate</span></div>
+          <div class="sk"><i class="fa-solid fa-database" style="color:#f29111"></i><span class="sk-name">MySQL</span><span class="sk-lv lv-int">Intermediate</span></div>
+          <div class="sk"><i class="fa-solid fa-circle-nodes ic-mongo"></i><span class="sk-name">Mongoose</span><span class="sk-lv lv-pro">Proficient</span></div>
+        </div>
+      </div>
+
+      <!-- Frontend -->
+      <div class="reveal d2">
+        <div class="skill-hd">
+          <div class="skill-hd-icon ii-purple"><i class="fa-solid fa-display"></i></div>
+          <span class="skill-hd-label">Frontend</span>
+          <div class="skill-hd-line"></div>
+        </div>
+        <div class="skills-grid">
+          <div class="sk"><i class="fa-brands fa-react ic-react"></i><span class="sk-name">React</span><span class="sk-lv lv-int">Intermediate</span></div>
+          <div class="sk"><i class="fa-brands fa-js ic-js"></i><span class="sk-name">JavaScript</span><span class="sk-lv lv-pro">Proficient</span></div>
+          <div class="sk"><i class="fa-brands fa-html5 ic-html"></i><span class="sk-name">HTML5</span><span class="sk-lv lv-pro">Proficient</span></div>
+          <div class="sk"><i class="fa-brands fa-css3-alt ic-css"></i><span class="sk-name">CSS3</span><span class="sk-lv lv-pro">Proficient</span></div>
+        </div>
+      </div>
+
+      <!-- Core Subjects -->
+      <div class="reveal d3">
+        <div class="skill-hd">
+          <div class="skill-hd-icon ii-orange"><i class="fa-solid fa-book-open"></i></div>
+          <span class="skill-hd-label">Core CS Subjects</span>
+          <div class="skill-hd-line"></div>
+        </div>
+        <div class="skills-grid">
+          <div class="sk"><i class="fa-solid fa-network-wired ic-cn"></i><span class="sk-name">Comp. Networks</span><span class="sk-lv lv-int">Intermediate</span></div>
+          <div class="sk"><i class="fa-solid fa-database ic-dbms"></i><span class="sk-name">DBMS</span><span class="sk-lv lv-pro">Proficient</span></div>
+          <div class="sk"><i class="fa-solid fa-cube ic-oops"></i><span class="sk-name">OOP</span><span class="sk-lv lv-pro">Proficient</span></div>
+          <div class="sk"><i class="fa-brands fa-python ic-py"></i><span class="sk-name">Python</span><span class="sk-lv lv-int">Intermediate</span></div>
+          <div class="sk"><i class="fa-solid fa-microchip" style="color:var(--muted)"></i><span class="sk-name">OS</span><span class="sk-lv lv-int">Intermediate</span></div>
+          <div class="sk"><i class="fa-solid fa-sitemap" style="color:var(--accent)"></i><span class="sk-name">DSA</span><span class="sk-lv lv-int">Intermediate</span></div>
+        </div>
+      </div>
+
+      <!-- Tools -->
+      <div class="reveal d4">
+        <div class="skill-hd">
+          <div class="skill-hd-icon ii-red"><i class="fa-solid fa-wrench"></i></div>
+          <span class="skill-hd-label">Tools &amp; DevOps</span>
+          <div class="skill-hd-line"></div>
+        </div>
+        <div class="skills-grid">
+          <div class="sk"><i class="fa-brands fa-git-alt ic-git"></i><span class="sk-name">Git</span><span class="sk-lv lv-pro">Proficient</span></div>
+          <div class="sk"><i class="fa-brands fa-github" style="color:var(--text)"></i><span class="sk-name">GitHub</span><span class="sk-lv lv-pro">Proficient</span></div>
+          <div class="sk"><i class="fa-brands fa-docker ic-docker"></i><span class="sk-name">Docker</span><span class="sk-lv lv-beg">Beginner</span></div>
+          <div class="sk"><i class="fa-brands fa-linux ic-linux"></i><span class="sk-name">Linux</span><span class="sk-lv lv-int">Intermediate</span></div>
+          <div class="sk"><i class="fa-solid fa-terminal" style="color:var(--green)"></i><span class="sk-name">Terminal</span><span class="sk-lv lv-pro">Proficient</span></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ CONTACT ══ -->
+<section id="contact" class="section">
+  <div class="container">
+    <div class="s-chip reveal"><i class="fa-solid fa-paper-plane"></i>&nbsp;05  Let's Connect</div>
+    <h2 class="s-title reveal">Get In <span>Touch</span></h2>
+    <div class="contact-grid">
+
+      <div class="c-cards reveal sl">
+        <div class="c-card"><div class="c-ico ii-blue"><i class="fa-solid fa-envelope"></i></div><div><small>Email</small><a href="mailto:shubham999108@gmail.com">shubham999108@gmail.com</a></div></div>
+        <div class="c-card"><div class="c-ico ii-purple"><i class="fa-brands fa-linkedin-in"></i></div><div><small>LinkedIn</small><a href="https://www.linkedin.com/in/shubham-kumar-aa3285333/">linkedin.com/in/naresh-kumarcs/</a></div></div>
+        <div class="c-card"><div class="c-ico" style="background:rgba(255,255,255,.06);color:var(--text)"><i class="fa-brands fa-github"></i></div><div><small>GitHub</small><a href="https://github.com/Shubham0830">github.com/Shubham0830</a></div></div>
+        <div class="c-card"><div class="c-ico ii-red"><i class="fa-solid fa-location-dot"></i></div><div><small>Location</small><span>Haryana, India</span></div></div>
+        <div class="c-card"><div class="c-ico ii-green"><i class="fa-solid fa-circle-dot"></i></div><div><small>Availability</small><span style="color:var(--green)">Open to opportunities</span></div></div>
+        <div class="c-card"><div class="c-ico ii-orange"><i class="fa-solid fa-clock"></i></div><div><small>Response Time</small><span>Within 24 hours</span></div></div>
+      </div>
+
+      <div class="c-form reveal sr">
+        <div class="fg"><label><i class="fa-solid fa-user"></i>your_name</label><input type="text" id="cn" placeholder="John Doe"/></div>
+        <div class="fg"><label><i class="fa-solid fa-envelope"></i>your_email</label><input type="email" id="ce" placeholder="john@company.com"/></div>
+        <div class="fg"><label><i class="fa-solid fa-tag"></i>subject</label><input type="text" id="cs" placeholder="Internship opportunity at Acme"/></div>
+        <div class="fg"><label><i class="fa-solid fa-message"></i>message</label><textarea id="cm" placeholder="Hi Shubham, I'd like to discuss..."></textarea></div>
+        <div id="fm"></div>
+        <button class="btn btn-primary" id="send-btn" onclick="sendMsg()">
+          <i class="fa-solid fa-paper-plane"></i>Send Message
+        </button>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-logo"><i class="fa-solid fa-terminal" style="color:var(--accent)"></i>naresh<span class="fl-dot">.</span>dev</div>
+      <div class="footer-soc">
+        <a href="https://github.com/Shubham0830" title="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/shubham-kumar-aa3285333/" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#" title="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="mailto:shubham999108@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+      <div class="footer-copy">Built with <span>♥</span> by <strong>Naresh</strong>· © 2025</div>
+    </div>
+  </div>
+</footer>
+
+   <script src="portfolio.js"></script>
+</body>
+</html>
